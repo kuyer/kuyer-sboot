@@ -1,0 +1,12 @@
+server:
+    port: 17303
+spring.dubbo:
+    application.name: animal-app
+    registry.address: multicast://224.15.68.72:17300
+    protocol:
+        name: dubbo
+        port: 17301
+        threads: 4
+        serialization: dubbo
+    packages: io.github.kuyer.sboot.dubbo.consumer.app
+

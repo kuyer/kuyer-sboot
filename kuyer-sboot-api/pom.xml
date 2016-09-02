@@ -7,7 +7,7 @@
 	<parent>
         <groupId>io.github.kuyer</groupId>
         <artifactId>kuyer-sboot</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1</version>
     </parent>
 	
 	<artifactId>kuyer-sboot-api</artifactId>

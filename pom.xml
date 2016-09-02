@@ -10,7 +10,7 @@
 	<groupId>io.github.kuyer</groupId>
 	<artifactId>kuyer-sboot</artifactId>
 	<packaging>pom</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	
 	<parent>
         <groupId>org.springframework.boot</groupId>
@@ -20,13 +20,16 @@
 	
 	<modules>
 		<module>kuyer-sboot-api</module>
+		<module>kuyer-sboot-dubbo-provider</module>
+		<module>kuyer-sboot-dubbo-consumer</module>
 	</modules>
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.build.timestamp.format>yyyy-MM-dd_HH:mm:ss</maven.build.timestamp.format>
-		<dubbo.version>2.8.4</dubbo.version>
+		<dubbo.version>2.5.3</dubbo.version>
+		<kuyer.common.version>0.0.1</kuyer.common.version>
 		<java.version>1.8</java.version>
 	</properties>
 	
@@ -36,6 +39,11 @@
 				<groupId>com.alibaba</groupId>
 				<artifactId>dubbo</artifactId>
 				<version>${dubbo.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.github.kuyer</groupId>
+				<artifactId>kuyer-common</artifactId>
+				<version>${kuyer.common.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
