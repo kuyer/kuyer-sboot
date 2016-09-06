@@ -44,4 +44,9 @@ public class AnimalService implements AnimalApi {
 		return null;
 	}
 
+	@Override
+	public Integer plus(int a, int b) {
+		return a+b;
+	}
+
 }

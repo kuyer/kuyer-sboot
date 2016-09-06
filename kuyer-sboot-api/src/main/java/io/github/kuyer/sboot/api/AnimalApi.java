@@ -18,6 +18,14 @@ public interface AnimalApi {
 	public String sayHello(String name);
 	
 	/**
+	 * 加法计算
+	 * @param a
+	 * @param b
+	 * @return
+	 */
+	public Integer plus(int a, int b);
+	
+	/**
 	 * 根据编号获取动物信息
 	 * @param id
 	 * @return

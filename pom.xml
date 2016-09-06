@@ -22,6 +22,8 @@
 		<module>kuyer-sboot-api</module>
 		<module>kuyer-sboot-dubbo-provider</module>
 		<module>kuyer-sboot-dubbo-consumer</module>
+		<module>kuyer-sboot-eureka-registry</module>
+		<module>kuyer-sboot-eureka-provider</module>
 	</modules>
 	
 	<properties>

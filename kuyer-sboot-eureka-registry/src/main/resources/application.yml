@@ -1,0 +1,7 @@
+server:
+    port: 17304
+spring.application.name: eureka-registry
+eureka.client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl.defaultZone: http://localhost:${server.port}/eureka/
