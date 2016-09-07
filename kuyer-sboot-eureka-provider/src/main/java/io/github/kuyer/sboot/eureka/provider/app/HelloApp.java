@@ -20,7 +20,7 @@ public class HelloApp {
 	@Autowired
 	private DiscoveryClient discoveryClient;
 	
-	@RequestMapping(value="hello", method=RequestMethod.GET)
+	@RequestMapping(value="/hello", method=RequestMethod.GET)
 	public String sayHello(@RequestParam String name) {
 		ServiceInstance instance = discoveryClient.getLocalServiceInstance();
 		logger.info("/hello. param: {}. host: {}, port: {}, serviceId: {}.", 
