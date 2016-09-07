@@ -25,6 +25,7 @@
 		<module>kuyer-sboot-eureka-registry</module>
 		<module>kuyer-sboot-eureka-provider</module>
 		<module>kuyer-sboot-feign-consumer</module>
+		<module>kuyer-sboot-ribbon-consumer</module>
 	</modules>
 	
 	<properties>
