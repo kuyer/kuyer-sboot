@@ -28,6 +28,7 @@
 		<module>kuyer-sboot-ribbon-consumer</module>
 		<module>kuyer-sboot-config-client</module>
 		<module>kuyer-sboot-config-server</module>
+		<module>kuyer-sboot-gateway</module>
 	</modules>
 	
 	<properties>
