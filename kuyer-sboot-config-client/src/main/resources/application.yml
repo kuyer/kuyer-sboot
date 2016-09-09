@@ -1,6 +1,0 @@
-spring:
-    application.name: config-client
-    cloud.config:
-        profile: dev
-        uri: http://localhost:17308/
-server.port: 17309

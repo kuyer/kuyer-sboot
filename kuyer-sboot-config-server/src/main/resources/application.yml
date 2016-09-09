@@ -1,6 +1,6 @@
 spring:
     application.name: config-server
-    profiles.active: native
+#    profiles.active: native
     cloud.config.server.git:
         uri: https://github.com/kuyer/kuyer-sboot/
         searchPaths: kuyer-sboot-config-repo
