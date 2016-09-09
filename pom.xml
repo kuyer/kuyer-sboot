@@ -26,6 +26,8 @@
 		<module>kuyer-sboot-eureka-provider</module>
 		<module>kuyer-sboot-feign-consumer</module>
 		<module>kuyer-sboot-ribbon-consumer</module>
+		<module>kuyer-sboot-config-client</module>
+		<module>kuyer-sboot-config-server</module>
 	</modules>
 	
 	<properties>
